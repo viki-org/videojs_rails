@@ -1,5 +1,5 @@
 require "videojs_rails/version"
 
 module VideojsRails
-  # Your code goes here...
+  class Engine < ::Rails::Engine; end
 end
